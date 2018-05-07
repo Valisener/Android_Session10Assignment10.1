@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Set the width margin for button textview and edittext to make sure it doesnt hit the edges since the assignment photo
+    showed it not quite hitting the edges of the screen-->
+    <dimen name="marginLeftAndRight">5dp</dimen>
+</resources>

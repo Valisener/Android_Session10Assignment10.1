@@ -1,0 +1,36 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/lib/com.google.android.gms.plus"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SimpleAddition"
+    android:orientation="vertical"
+    android:background="@color/colorFragmentBackground">
+<!--Create edit text view that will allow the user to input the data to be entered-->
+    <EditText
+        android:id="@+id/editBox"
+        android:hint="@string/app_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/marginLeftAndRight"
+        android:layout_marginRight="@dimen/marginLeftAndRight"
+        android:inputType="text"
+        android:textColor="@color/colorPrimaryDark" />
+<!--Create the button that lets you click and update the textview with new text from edittext box-->
+    <Button
+        android:id="@+id/btnSubmit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/marginLeftAndRight"
+        android:layout_marginRight="@dimen/marginLeftAndRight"
+        android:text="@string/buttonName" />
+<!--Create textview that displays the data that was entered into the edittext box-->
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="@dimen/marginLeftAndRight"
+        android:layout_marginRight="@dimen/marginLeftAndRight"
+        android:background="@color/colorTextViewBackground"/>
+
+</LinearLayout>
